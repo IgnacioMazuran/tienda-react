@@ -3,7 +3,7 @@ import Directorio from '../../components/directorio/directorio.component';
 
 const HomePage = () => (
     <div className='homepage'>
-        <Directorio/>
+        <Directorio />
     </div>
 )
 export default HomePage;
