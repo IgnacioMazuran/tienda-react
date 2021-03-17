@@ -2,7 +2,8 @@ import React from "react";
 import "./sign-in.styles.scss";
 import FormInput from "../form-input/form-input.component";
 import CustomButton from "../custom-button/custom-button.component";
-import { signInWithGoogle } from "../../firebase/firebase.utils";
+import { auth, signInWithGoogle } from "../../firebase/firebase.utils";
+import Swal from 'sweetalert2'
 
 class SignIn extends React.Component {
   constructor(props) {
@@ -14,9 +15,29 @@ class SignIn extends React.Component {
     };
   }
 
-  handleSubmit = (event) => {
+  handleSubmit = async event => {
     event.preventDefault();
-    this.setState({ email: "", password: "" });
+
+    const {email,password} = this.state; //deestructure
+
+    try{
+      await auth.signInWithEmailAndPassword(email,password);
+      this.setState({ email: "", password: "" });
+      Swal.fire({
+        icon: 'success',
+        title: 'Sesión iniciada con éxito'
+      });
+
+    } catch(error){
+      console.log(error);
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Contraseña incorrecta!',
+      })
+    }
+
+    
   };
 
   handleChange = (event) => {
@@ -48,7 +69,7 @@ class SignIn extends React.Component {
             required
           />
             <div className='buttons'><CustomButton type="submit">Iniciar Sesión</CustomButton>
-            <CustomButton onClick={signInWithGoogle} isGoogleSignIn>
+            <CustomButton type="button" onClick={signInWithGoogle} isGoogleSignIn>
               Iniciar Sesión con Google
             </CustomButton> </div>
             
