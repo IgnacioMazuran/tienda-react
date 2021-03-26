@@ -11,20 +11,20 @@ class Directorio extends React.Component{
                   titulo: 'Gorras',
                   imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
                   id: 1,
-                  linkUrl: 'gorras'
+                  linkUrl: 'shop/gorras'
                 },
                 {
                   titulo: 'Remeras',
                   imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
                   id: 2,
-                  linkUrl: 'shop/jackets'
+                  linkUrl: 'shop/remeras'
                 },
                 {
                     titulo: 'Zapatillas',
                   imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
                   
                   id: 3,
-                  linkUrl: 'shop/sneakers'
+                  linkUrl: 'shop/zapatillas'
                 },
                 {
                     titulo: 'Mujeres',
@@ -32,7 +32,7 @@ class Directorio extends React.Component{
                   
                   size: 'large',
                   id: 4,
-                  linkUrl: 'shop/womens'
+                  linkUrl: 'shop/mujeres'
                 },
                 {
                     titulo: 'Hombres',
@@ -40,7 +40,7 @@ class Directorio extends React.Component{
                   
                   size: 'large',
                   id: 5,
-                  linkUrl: 'shop/mens'
+                  linkUrl: 'shop/hombres'
                 }
               ]
               
