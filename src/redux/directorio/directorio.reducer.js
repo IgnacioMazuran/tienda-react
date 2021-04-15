@@ -7,10 +7,10 @@ const INITIAL_STATE = {
       linkUrl: 'shop/gorras'
     },
     {
-      titulo: 'Remeras',
+      titulo: 'Camperas',
       imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
       id: 2,
-      linkUrl: 'shop/remeras'
+      linkUrl: 'shop/camperas'
     },
     {
         titulo: 'Zapatillas',
