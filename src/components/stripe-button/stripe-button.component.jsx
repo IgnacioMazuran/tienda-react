@@ -16,7 +16,7 @@ const StripeCheckoutButton = ({precio}) => {
         currency="ARS"
         billingAddress
         shippingAddress
-        image='https://www.flaticon.com/svg/vstatic/svg/747/747156.svg?token=exp=1618845767~hmac=4a3ca38848d1472fee9143076802bc7d'
+        image='https://www.flaticon.es/svg/vstatic/svg/44/44338.svg?token=exp=1618962883~hmac=1d4405c35d2563546a831aa6c159bd4a'
         description={`Su total es de $${precio}`}
         amount={precioStripe}
         panelLabel='Realizar Pago'

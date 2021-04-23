@@ -6,57 +6,57 @@ const SHOP_DATA = {
       items: [
         {
           id: 1,
-          nombre: 'Brown Brim',
+          nombre: 'Brim Marrón',
           imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
-          precio: 25
+          precio: 350
         },
         {
           id: 2,
-          nombre: 'Blue Beanie',
+          nombre: 'Beanie Azul',
           imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
-          precio: 18
+          precio: 1100
         },
         {
           id: 3,
-          nombre: 'Brown Cowboy',
+          nombre: 'Vaquero Marrón',
           imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
-          precio: 35
+          precio: 560
         },
         {
           id: 4,
-          nombre: 'Grey Brim',
+          nombre: 'Brim Gris',
           imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
           precio: 25
         },
         {
           id: 5,
-          nombre: 'Green Beanie',
+          nombre: 'Beanie Verde',
           imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
-          precio: 18
+          precio: 1100
         },
         {
           id: 6,
-          nombre: 'Palm Tree Cap',
+          nombre: 'Gorra Palmera',
           imageUrl: 'https://i.ibb.co/rKBDvJX/palm-tree-cap.png',
-          precio: 14
+          precio: 700
         },
         {
           id: 7,
-          nombre: 'Red Beanie',
+          nombre: 'Beanie Rojo',
           imageUrl: 'https://i.ibb.co/bLB646Z/red-beanie.png',
-          precio: 18
+          precio: 1100
         },
         {
           id: 8,
-          nombre: 'Wolf Cap',
+          nombre: 'Gorra Wolf',
           imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
-          precio: 14
+          precio: 700
         },
         {
           id: 9,
-          nombre: 'Blue Snapback',
+          nombre: 'Gorra de Béisbol Azul',
           imageUrl: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
-          precio: 16
+          precio: 800
         }
       ]
     },
@@ -69,49 +69,49 @@ const SHOP_DATA = {
           id: 10,
           nombre: 'Adidas NMD',
           imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
-          precio: 220
+          precio: 15000
         },
         {
           id: 11,
           nombre: 'Adidas Yeezy',
           imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
-          precio: 280
+          precio: 52000
         },
         {
           id: 12,
-          nombre: 'Black Converse',
+          nombre: 'Converse Negras',
           imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
-          precio: 110
+          precio: 7999
         },
         {
           id: 13,
           nombre: 'Nike White AirForce',
           imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
-          precio: 160
+          precio: 49900
         },
         {
           id: 14,
-          nombre: 'Nike Red High Tops',
+          nombre: 'Nike High Tops Rojas',
           imageUrl: 'https://i.ibb.co/QcvzydB/nikes-red.png',
-          precio: 160
+          precio: 22999
         },
         {
           id: 15,
-          nombre: 'Nike Brown High Tops',
+          nombre: 'Nike High Tops Marrón',
           imageUrl: 'https://i.ibb.co/fMTV342/nike-brown.png',
-          precio: 160
+          precio: 22999
         },
         {
           id: 16,
-          nombre: 'Air Jordan Limited',
+          nombre: 'Air Jordan Edición Limitadas',
           imageUrl: 'https://i.ibb.co/w4k6Ws9/nike-funky.png',
-          precio: 190
+          precio: 56999
         },
         {
           id: 17,
-          nombre: 'Timberlands',
+          nombre: 'Timberlands Marrón',
           imageUrl: 'https://i.ibb.co/Mhh6wBg/timberlands.png',
-          precio: 200
+          precio: 16800
         }
       ]
     },
@@ -122,33 +122,33 @@ const SHOP_DATA = {
       items: [
         {
           id: 18,
-          nombre: 'Black Jean Shearling',
+          nombre: 'Campera Jean Negra',
           imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
-          precio: 125
+          precio: 4500
         },
         {
           id: 19,
-          nombre: 'Blue Jean Jacket',
+          nombre: 'Campera Jean Azul',
           imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
-          precio: 90
+          precio: 4500
         },
         {
           id: 20,
-          nombre: 'Grey Jean Jacket',
+          nombre: 'Campera Jean Gris',
           imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
-          precio: 90
+          precio: 4500
         },
         {
           id: 21,
-          nombre: 'Brown Shearling',
+          nombre: 'Campera Shearling Marrón',
           imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
-          precio: 165
+          precio: 65625
         },
         {
           id: 22,
-          nombre: 'Tan Trench',
+          nombre: 'Piloto Trench Marrón',
           imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
-          precio: 185
+          precio: 5687
         }
       ]
     },
@@ -159,45 +159,45 @@ const SHOP_DATA = {
       items: [
         {
           id: 23,
-          nombre: 'Blue Tanktop',
+          nombre: 'Tanktop Azul',
           imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
-          precio: 25
+          precio: 2699
         },
         {
           id: 24,
-          nombre: 'Floral Blouse',
+          nombre: 'Blusa Floral',
           imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
-          precio: 20
+          precio: 1650
         },
         {
           id: 25,
-          nombre: 'Floral Dress',
+          nombre: 'Vestido Floral',
           imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
-          precio: 80
+          precio: 4800
         },
         {
           id: 26,
-          nombre: 'Red Dots Dress',
+          nombre: 'Vestido de Puntos Rojos',
           imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
-          precio: 80
+          precio: 4800
         },
         {
           id: 27,
-          nombre: 'Striped Sweater',
+          nombre: 'Suéter Rayado',
           imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
-          precio: 45
+          precio: 1700
         },
         {
           id: 28,
-          nombre: 'Yellow Track Suit',
+          nombre: 'Conjunto Amarillo',
           imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
-          precio: 135
+          precio: 3000
         },
         {
           id: 29,
-          nombre: 'White Blouse',
+          nombre: 'Blusa Blanca',
           imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
-          precio: 20
+          precio: 1650
         }
       ]
     },
@@ -208,39 +208,39 @@ const SHOP_DATA = {
       items: [
         {
           id: 30,
-          nombre: 'Camo Down Vest',
+          nombre: 'Chaleco Camo Marrón',
           imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
-          precio: 325
+          precio: 2600
         },
         {
           id: 31,
-          nombre: 'Floral T-shirt',
+          nombre: 'Camisa Floral',
           imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
-          precio: 20
+          precio: 1599
         },
         {
           id: 32,
-          nombre: 'Black & White Longsleeve',
+          nombre: 'Manga Larga Blanco & Negro',
           imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
-          precio: 25
+          precio: 850
         },
         {
           id: 33,
-          nombre: 'Pink T-shirt',
+          nombre: 'Camisa Rosa',
           imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
-          precio: 25
+          precio: 1500
         },
         {
           id: 34,
-          nombre: 'Jean Long Sleeve',
+          nombre: 'Camisa Jean Manga Larga',
           imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
-          price: 40
+          price: 1997
         },
         {
           id: 35,
-          nombre: 'Burgundy T-shirt',
+          nombre: 'Camisa Vino Tinto',
           imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
-          precio: 25
+          precio: 1800
         }
       ]
     }

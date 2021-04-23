@@ -70,7 +70,7 @@ class SignUp extends React.Component{
             name='password'
             value={password}
             onChange={this.handleChange}
-            label='Contraseña'
+            label='Contraseña (mínimo 6 caracteres)'
             required
           />
           <FormInput
