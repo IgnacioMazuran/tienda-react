@@ -1,5 +1,6 @@
 import React from 'react';
 import StripeCheckout from 'react-stripe-checkout';
+import shop from '../../assets/Logo.svg';
 
 const StripeCheckoutButton = ({precio}) => {
     const precioStripe = precio * 100;
@@ -16,7 +17,7 @@ const StripeCheckoutButton = ({precio}) => {
         currency="ARS"
         billingAddress
         shippingAddress
-        image='https://www.flaticon.es/svg/vstatic/svg/44/44338.svg?token=exp=1618962883~hmac=1d4405c35d2563546a831aa6c159bd4a'
+        image={shop}
         description={`Su total es de $${precio}`}
         amount={precioStripe}
         panelLabel='Realizar Pago'
