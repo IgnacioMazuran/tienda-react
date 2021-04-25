@@ -8,6 +8,9 @@ export const CollectionItemContainer = styled.div`
   height: 350px;
   align-items: center;
   position: relative;
+
+  .short { display: none; }
+
   &:hover {
     .image {
       opacity: 0.8;
@@ -29,6 +32,9 @@ export const CollectionItemContainer = styled.div`
         opacity: unset;
       }
     }
+
+    .short { display: inline-block; }
+    .full { display: none; }
     
   }
   
