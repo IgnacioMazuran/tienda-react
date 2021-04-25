@@ -1,9 +1,9 @@
 import React from 'react';
 import Directorio from '../../components/directorio/directorio.component';
-
+import {HomePageContainer} from './homepage.styles';
 const HomePage = () => (
-    <div className='homepage'>
+    <HomePageContainer>
         <Directorio />
-    </div>
+    </HomePageContainer>
 )
 export default HomePage;

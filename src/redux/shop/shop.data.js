@@ -26,7 +26,7 @@ const SHOP_DATA = {
           id: 4,
           nombre: 'Brim Gris',
           imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
-          precio: 25
+          precio: 250
         },
         {
           id: 5,
