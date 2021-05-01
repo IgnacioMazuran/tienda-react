@@ -19,7 +19,7 @@ const Header = ({ currentUser, hidden }) => (
       <OptionLink to='/shop'>
         TIENDA
       </OptionLink>
-      <OptionLink to='/shop'>
+      <OptionLink to='/contacto'>
         CONTACTO
       </OptionLink>
       {currentUser ? (
